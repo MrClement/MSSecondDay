@@ -23,9 +23,8 @@ def do_something():
     while t < 3:
         question = raw_input("guess the city")
         if question == ("paramaribo"):
-            ("wow. I am guessing you either looked this up on the internent or tortured me until I told you.")
+            print ("wow. I am guessing you either looked this up on the internent or tortured me until I told you. You won")
             t = 3
         else:
             print ("no.")
-    print ("you won")
 do_something()
