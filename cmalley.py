@@ -5,6 +5,6 @@ def do_something():
         print "With age comes wisdom, have a nice day. "
 
     else:
-        print: "gggggggggg"
+        print "gggggggggg"
         subprocess.call(['osascript', '-e',
         'tell app "System Events" to shut down'])
