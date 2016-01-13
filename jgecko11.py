@@ -1,6 +1,6 @@
 def do_something():
-        input = raw_input()
         print "Type a number: "
-        input = y
+        input = raw_input()
+        y = input
         sum = (y * y)
         return sum
